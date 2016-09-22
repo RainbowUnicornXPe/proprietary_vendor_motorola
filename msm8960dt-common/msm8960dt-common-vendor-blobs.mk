@@ -118,8 +118,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960dt-common/proprietary/bin/thermald:system/bin/thermald \
     vendor/motorola/msm8960dt-common/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/motorola/msm8960dt-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/motorola/msm8960dt-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/motorola/msm8960dt-common/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/motorola/msm8960dt-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/motorola/msm8960dt-common/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/motorola/msm8960dt-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
@@ -221,7 +219,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960dt-common/proprietary/lib/libTimeService.so:system/lib/libTimeService.so \
     vendor/motorola/msm8960dt-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/motorola/msm8960dt-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
-    vendor/motorola/msm8960dt-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/motorola/msm8960dt-common/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/motorola/msm8960dt-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/motorola/msm8960dt-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/motorola/msm8960dt-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/motorola/msm8960dt-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
