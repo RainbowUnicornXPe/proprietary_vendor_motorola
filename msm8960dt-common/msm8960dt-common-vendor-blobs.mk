@@ -214,3 +214,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960dt-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so
 
 $(call inherit-product, vendor/qcom/binaries/msm8960/graphics/graphics-vendor.mk)
+
