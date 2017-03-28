@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/addison/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/addison/proprietary/bin/motosh:system/bin/motosh \
+	vendor/motorola/addison/proprietary/mods_camd:system/bin/mods_camd \
     vendor/motorola/addison/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/addison/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/motorola/addison/proprietary/bin/pm-service:system/bin/pm-service \
@@ -88,6 +89,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/motorola/addison/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/addison/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/motorola/addison/proprietary/etc/permissions/com.motorola.mod.xml:system/etc/permissions/com.motorola.mod.xml \
+    vendor/motorola/addison/proprietary/etc/permissions/com.motorola.moto.xml:system/etc/permissions/com.motorola.moto.xml \
+    vendor/motorola/addison/proprietary/etc/permissions/com.motorola.motodisplay.xml:system/etc/permissions/com.motorola.motodisplay.xml \
     vendor/motorola/addison/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/addison/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/addison/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin \
@@ -481,4 +485,5 @@ PRODUCT_PACKAGES += \
     com.qti.snapdragon.sdk.display \
     embmslibrary \
     imscmlibrary \
+	MotoDisplayFWProxy \
     qcrilhook
