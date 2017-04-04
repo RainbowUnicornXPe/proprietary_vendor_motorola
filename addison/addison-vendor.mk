@@ -484,5 +484,4 @@ PRODUCT_PACKAGES += \
     com.qti.snapdragon.sdk.display \
     embmslibrary \
     imscmlibrary \
-	MotoDisplayFWProxy \
     qcrilhook
