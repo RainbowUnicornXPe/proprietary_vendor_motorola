@@ -484,4 +484,8 @@ PRODUCT_PACKAGES += \
     com.qti.snapdragon.sdk.display \
     embmslibrary \
     imscmlibrary \
-    qcrilhook
+    qcrilhook \
+    ModFmwkProxyService \
+    ModService \
+    ProjectorApp \
+    MotCameraMod
