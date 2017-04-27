@@ -114,7 +114,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8960dt-common/proprietary/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
     vendor/motorola/msm8960dt-common/proprietary/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
     vendor/motorola/msm8960dt-common/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
-    vendor/motorola/msm8960dt-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/motorola/msm8960dt-common/proprietary/bin/thermald:system/bin/thermald \
     vendor/motorola/msm8960dt-common/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/motorola/msm8960dt-common/proprietary/bin/qseecomd:system/bin/qseecomd \
