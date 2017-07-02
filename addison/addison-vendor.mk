@@ -480,11 +480,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
     vendor/motorola/addison/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
     vendor/motorola/addison/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
-<<<<<<< HEAD
     vendor/motorola/addison/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
-=======
     vendor/motorola/addison/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
->>>>>>> 43757cb... addison: Add proprietary GPS stack
     vendor/motorola/addison/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/motorola/addison/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so \
     vendor/motorola/addison/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
