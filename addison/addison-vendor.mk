@@ -695,7 +695,6 @@ PRODUCT_COPY_FILES += \
 
 
 PRODUCT_PACKAGES += \
-    libril \
     TimeService \
     datastatusnotification \
     CNEService \
