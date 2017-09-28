@@ -32,8 +32,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/addison/proprietary/bin/motosh:system/bin/motosh \
     vendor/motorola/addison/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/motorola/addison/proprietary/bin/pm-proxy:system/bin/pm-proxy \
-    vendor/motorola/addison/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/motorola/addison/proprietary/vendor/bin/pm-proxy:system/vendor/bin/pm-proxy \
+    vendor/motorola/addison/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/motorola/addison/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
     vendor/motorola/addison/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/addison/proprietary/bin/radish:system/bin/radish \
