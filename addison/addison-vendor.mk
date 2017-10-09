@@ -498,8 +498,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so:system/vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so \
     vendor/motorola/addison/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/motorola/addison/proprietary/vendor/lib/rfsa/adsp/libscveTextReco_skel.so:system/vendor/lib/rfsa/adsp/libscveTextReco_skel.so \
-    vendor/motorola/addison/proprietary/vendor/libprotobuf-cpp-lxpe:system/vendor/lib/libprotobuf-cpp-lxpe.so \
-    vendor/motorola/addison/proprietary/vendor/libprotobuf-cpp-fxpe.so:system/vendor/lib/libprotobuf-cpp-fxpe.so \
+    vendor/motorola/addison/proprietary/vendor/lib/libprotobuf-cpp-lxpe.so:system/vendor/lib/libprotobuf-cpp-lxpe.so \
+    vendor/motorola/addison/proprietary/vendor/lib/libprotobuf-cpp-fxpe.so:system/vendor/lib/libprotobuf-cpp-fxpe.so \
     vendor/motorola/addison/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
