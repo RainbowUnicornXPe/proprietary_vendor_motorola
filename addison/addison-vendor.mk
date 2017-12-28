@@ -27,15 +27,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/motorola/addison/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/addison/proprietary/bin/motosh:system/bin/motosh \
-    vendor/motorola/addison/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/motorola/addison/proprietary/bin/pm-proxy:system/bin/pm-proxy \
-    vendor/motorola/addison/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/motorola/addison/proprietary/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/motorola/addison/proprietary/bin/pm-proxy:system/vendor/bin/pm-proxy \
+    vendor/motorola/addison/proprietary/bin/pm-service:system/vendor/bin/pm-service \
     vendor/motorola/addison/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
-    vendor/motorola/addison/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/motorola/addison/proprietary/bin/radish:system/bin/radish \
-    vendor/motorola/addison/proprietary/bin/rild:system/bin/rild \
-    vendor/motorola/addison/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/motorola/addison/proprietary/bin/tftp_server:system/bin/tftp_server \
+    vendor/motorola/addison/proprietary/bin/qseecomd:system/vendor/bin/qseecomd \
+    vendor/motorola/addison/proprietary/bin/radish:system/vendor/bin/radish \
+    vendor/motorola/addison/proprietary/bin/rmt_storage:systemvendor//bin/rmt_storage \
+    vendor/motorola/addison/proprietary/bin/tftp_server:system/vendor/bin/tftp_server \
     vendor/motorola/addison/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/motorola/addison/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/motorola/addison/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
@@ -510,7 +509,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
-    libril \
     QtiTelephonyService \
     TimeService \
     datastatusnotification \
